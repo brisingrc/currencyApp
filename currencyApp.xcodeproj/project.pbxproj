@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242E6BD1230004270070A5D6 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E6BD0230004270070A5D6 /* ConverterViewController.swift */; };
+		242E6BD3230018AD0070A5D6 /* SelectCurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E6BD2230018AD0070A5D6 /* SelectCurrencyController.swift */; };
+		243BBB942301E3C400DEB3B5 /* CourseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB932301E3C400DEB3B5 /* CourseViewCell.swift */; };
+		2454E7DD22FDEC61009B003A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454E7DC22FDEC61009B003A /* SettingViewController.swift */; };
 		24E5B3ED22FB3CA500F7E200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B3EC22FB3CA500F7E200 /* AppDelegate.swift */; };
-		24E5B3EF22FB3CA500F7E200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B3EE22FB3CA500F7E200 /* ViewController.swift */; };
 		24E5B3F222FB3CA500F7E200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E5B3F022FB3CA500F7E200 /* Main.storyboard */; };
 		24E5B3F422FB3CA700F7E200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E5B3F322FB3CA700F7E200 /* Assets.xcassets */; };
 		24E5B3F722FB3CA700F7E200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E5B3F522FB3CA700F7E200 /* LaunchScreen.storyboard */; };
+		24E5B3FF22FB3CBC00F7E200 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24E5B3FE22FB3CBC00F7E200 /* data.xml */; };
+		24E5B40122FB3DF700F7E200 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B40022FB3DF700F7E200 /* Model.swift */; };
+		24E5B40322FB4E6300F7E200 /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B40222FB4E6300F7E200 /* CoursesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242E6BD0230004270070A5D6 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		242E6BD2230018AD0070A5D6 /* SelectCurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyController.swift; sourceTree = "<group>"; };
+		243BBB932301E3C400DEB3B5 /* CourseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewCell.swift; sourceTree = "<group>"; };
+		2454E7DC22FDEC61009B003A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		24E5B3E922FB3CA500F7E200 /* currencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E5B3EC22FB3CA500F7E200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24E5B3EE22FB3CA500F7E200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24E5B3F122FB3CA500F7E200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24E5B3F322FB3CA700F7E200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24E5B3F622FB3CA700F7E200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24E5B3F822FB3CA700F7E200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E5B3FE22FB3CBC00F7E200 /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = data.xml; path = ../../../../Downloads/data.xml; sourceTree = "<group>"; };
+		24E5B40022FB3DF700F7E200 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		24E5B40222FB4E6300F7E200 /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				24E5B3EC22FB3CA500F7E200 /* AppDelegate.swift */,
-				24E5B3EE22FB3CA500F7E200 /* ViewController.swift */,
+				24E5B40022FB3DF700F7E200 /* Model.swift */,
 				24E5B3F022FB3CA500F7E200 /* Main.storyboard */,
+				243BBB932301E3C400DEB3B5 /* CourseViewCell.swift */,
+				242E6BD2230018AD0070A5D6 /* SelectCurrencyController.swift */,
+				242E6BD0230004270070A5D6 /* ConverterViewController.swift */,
+				2454E7DC22FDEC61009B003A /* SettingViewController.swift */,
+				24E5B40222FB4E6300F7E200 /* CoursesController.swift */,
 				24E5B3F322FB3CA700F7E200 /* Assets.xcassets */,
 				24E5B3F522FB3CA700F7E200 /* LaunchScreen.storyboard */,
 				24E5B3F822FB3CA700F7E200 /* Info.plist */,
+				24E5B3FE22FB3CBC00F7E200 /* data.xml */,
 			);
 			path = currencyApp;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E5B3F722FB3CA700F7E200 /* LaunchScreen.storyboard in Resources */,
+				24E5B3FF22FB3CBC00F7E200 /* data.xml in Resources */,
 				24E5B3F422FB3CA700F7E200 /* Assets.xcassets in Resources */,
 				24E5B3F222FB3CA500F7E200 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E5B3EF22FB3CA500F7E200 /* ViewController.swift in Sources */,
+				24E5B40322FB4E6300F7E200 /* CoursesController.swift in Sources */,
+				24E5B40122FB3DF700F7E200 /* Model.swift in Sources */,
+				242E6BD3230018AD0070A5D6 /* SelectCurrencyController.swift in Sources */,
 				24E5B3ED22FB3CA500F7E200 /* AppDelegate.swift in Sources */,
+				2454E7DD22FDEC61009B003A /* SettingViewController.swift in Sources */,
+				243BBB942301E3C400DEB3B5 /* CourseViewCell.swift in Sources */,
+				242E6BD1230004270070A5D6 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kaisheng.currencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kaisheng.currencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
