@@ -16,6 +16,7 @@ class CoursesController: UITableViewController {
         let df = DateFormatter()
         df.dateFormat = "dd.MM.yyyy"
         navigationItem.title = df.string(from: Model.shared.currentDate)
+        
     }
     
     override func viewDidLoad() {
@@ -47,6 +48,10 @@ class CoursesController: UITableViewController {
 
         
    //  navigationItem.title = Model.shared.currentDate
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        Model.shared.loadXMLFile(date: nil)
     }
 
     // MARK: - Table view data source

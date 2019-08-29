@@ -17,7 +17,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cFi-Wo-gak">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="cQa-qa-bLF" kind="relationship" relationship="viewControllers" id="VDS-Ck-gu0"/>
@@ -43,7 +44,9 @@
                                     <constraint firstAttribute="height" constant="42" id="wmq-JM-odd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="KZT"/>
+                                <state key="normal" title="KZT">
+                                    <color key="titleColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pushFromAction:" destination="YP2-mp-XSF" eventType="touchUpInside" id="ufW-md-lXM"/>
                                 </connections>
@@ -58,20 +61,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zo8-72-9Kx">
-                                <rect key="frame" x="186" y="286" width="16" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Курсы за дату:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlV-Nr-y9j">
                                 <rect key="frame" x="23" y="122" width="369" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="r3H-ra-PwI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed5-4g-ZJk">
@@ -81,7 +77,9 @@
                                     <constraint firstAttribute="height" constant="44" id="qcz-HT-ync"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="KZT"/>
+                                <state key="normal" title="KZT">
+                                    <color key="titleColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pushToAction:" destination="YP2-mp-XSF" eventType="touchUpInside" id="TOB-u9-eGe"/>
                                 </connections>
@@ -156,6 +154,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Выберите валюту" id="0Hg-EO-Z2X">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="v45-8r-zQW">
+                            <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="pushCancelAction:" destination="IdJ-RG-otp" id="29M-Xc-AP3"/>
                             </connections>
@@ -173,6 +172,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XlK-Bb-UAA">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="IdJ-RG-otp" kind="relationship" relationship="rootViewController" id="OF6-8I-JH2"/>
@@ -249,11 +249,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="cXa-Jk-x4s">
                         <barButtonItem key="leftBarButtonItem" title="Настройки" id="27i-aS-RsZ">
+                            <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="cze-xS-ybf" kind="presentation" id="Niq-l1-CiW"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="kNU-lQ-MPL">
+                            <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="refreshAction:" destination="JzN-kc-EhW" id="9Wd-jj-3Nk"/>
                             </connections>
@@ -268,11 +270,12 @@
         <scene sceneID="fIY-K6-zJ6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9RQ-0o-gqi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Конвертер" id="Rzp-F4-0Zs"/>
+                    <tabBarItem key="tabBarItem" title="Конвертер" image="tab2" selectedImage="tab2" id="Rzp-F4-0Zs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GcG-47-0tV">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -293,11 +296,15 @@
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="KbY-42-b3a">
                                 <rect key="frame" x="0.0" y="155" width="414" height="162"/>
+                                <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="0xa-G3-SPx"/>
                                 </constraints>
                                 <date key="date" timeIntervalSinceReferenceDate="586978477.36437905">
                                     <!--2019-08-08 17:34:37 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="100004400">
+                                    <!--2004-03-03 11:00:00 +0000-->
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTo-ZU-jcS">
@@ -305,7 +312,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="UCr-sG-wFZ"/>
                                 </constraints>
-                                <state key="normal" title="Показать курс"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Показать курс">
+                                    <color key="titleColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pushCourses:" destination="SNS-rS-Asf" eventType="touchUpInside" id="fWr-z1-czH"/>
                                 </connections>
@@ -324,6 +335,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Выберите дату" id="C4X-XG-qeo">
                         <barButtonItem key="leftBarButtonItem" title="Отмена" id="YNC-Y1-D1q">
+                            <color key="tintColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="pushCancelAction:" destination="SNS-rS-Asf" id="6Nh-Au-VdX"/>
                             </connections>
@@ -341,11 +353,12 @@
         <scene sceneID="1yw-QT-qjO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cQa-qa-bLF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Курсы" id="hrr-Rd-vTV"/>
+                    <tabBarItem key="tabBarItem" title="Курсы" image="tab1" selectedImage="tab1" id="hrr-Rd-vTV"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h2b-PE-Ire">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -364,6 +377,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TZD-iR-Mj3">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.086413674056529999" green="0.71202534437179565" blue="0.26150944828987122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -375,4 +392,8 @@
             <point key="canvasLocation" x="489.85507246376818" y="-1069.4196428571429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab1" width="25" height="25"/>
+        <image name="tab2" width="25" height="25"/>
+    </resources>
 </document>
